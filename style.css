@@ -1,0 +1,54 @@
+.karta-img {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+}
+
+.karta-img {
+    display: none;
+}
+
+.strana1 {
+    display: block;
+}
+
+.strana1:hover {
+    display: none;
+}
+
+#karta5 {
+    display: block;
+}
+
+@media (min-width: 700px) {
+    #karta4 {
+        display: block;
+    }
+
+    .karta-img {
+        width: 50%;
+        left: 25%;
+    }
+}
+
+@media (min-width: 1000px) {
+    #karta3 {
+        display: block;
+    }
+
+    .karta-img {
+        width: 30%;
+        left: 35%;
+    }
+}
+
+@media (min-width: 1300px) {
+    #karta2 {
+        display: block;
+    }
+
+    .karta-img {
+        width: 24%;
+        left: 38%;
+    }
+}
